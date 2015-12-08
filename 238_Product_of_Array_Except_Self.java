@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//后面的元素乘上一遍，前面的元素乘上一遍
 public class Solution {
 	// 计算两遍
 	public int[] productExceptSelf(int[] nums) {
