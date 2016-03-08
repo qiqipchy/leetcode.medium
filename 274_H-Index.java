@@ -1,5 +1,7 @@
 import java.util.Arrays;
-
+/*
+ * 	因为比较是随着i增加的，要保证前面的也大于n，只能是从高到底排序；
+ */
 public class Solution {
 	public int hIndex(int[] citations) {
 		Arrays.sort(citations);
